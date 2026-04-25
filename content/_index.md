@@ -8,16 +8,14 @@ chapter: false
     
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Nguyen Quoc Vuong
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0337306460  
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** nguyengranger04@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology and Education
 
