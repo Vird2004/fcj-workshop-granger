@@ -1,122 +1,80 @@
 ---
 title: "Event 2"
-date: 2024-01-01
+date: 2026-06-06
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Meeting 06/6”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Explore advanced cloud technologies and solutions (Docker, AWS WAF, WebSockets, GraphRAG).
+- Learn from practical career journeys in the IT industry.
+- Enhance teamwork skills and system security awareness.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Bảo Huỳnh** - Docker - A containerization technology
+- **Lê Hoàng Gia Đại** - Combining AWS WAF with Machine Learning for Cyber Attack Detection
+- **Nguyễn Quốc Bảo** - Multiplayer in the Cloud Connecting Godot Clients with AWS WebSockets
+- **Trương Huy Phước** - The art of effective teamwork
+- **Trần Trung Vinh** - From IT Helpdesk to Senior Sysadmin
+- **Việt Phát** - Build GraphRAG applications using Amazon Bedrock and Amazon Neptune
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Docker - A containerization technology
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Virtualization vs. Containerization: Containers are more lightweight, consume fewer resources, and boot faster than traditional Virtual Machines (VMs).
+- Benefits of Docker: Runs consistently across environments, highly portable, and ideal for Microservices architecture.
+- Docker Architecture: Understanding Docker Images, Containers, and building images from Dockerfiles using basic commands.
+- Use cases: CI/CD pipelines, cloud-native application development, and legacy system modernization.
 
-#### Transitioning to modern application architecture – Microservices
+#### Combining AWS WAF with Machine Learning for Cyber Attack Detection
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Limitations of traditional WAF: Relies heavily on predefined rules, struggling with zero-day attacks or novel anomalies.
+- WAF + Machine Learning (NIDS): An automated system that learns from network behavior to detect new threats without predefined rules.
+- Model Training: Utilizing the CSE-CIC-IDS2018 dataset, performing data cleaning, class balancing, and training with LightGBM.
+- Cloud Deployment: AWS architecture integrating ALB, WAF, S3, Kinesis, Lambda, and real-time monitoring dashboards.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Multiplayer in the Cloud Connecting Godot Clients with AWS WebSockets
 
-#### Domain-Driven Design (DDD)
+- Network Architectures: Comparing UDP (fast but complex), WebSockets (ideal for turn-based, reliable, full-duplex), and HTTP Polling (simple but high latency).
+- AWS Solution: Using API Gateway (WebSockets), Lambda Functions, and DynamoDB to manage player states and connections.
+- Godot Client Integration: Handling `$connect`, `$disconnect`, and `$default` events to exchange JSON messages in real-time.
+- Challenges & Lessons: Managing stale connections (GoneException), high DynamoDB Scan costs, and the stateless nature of Lambda.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### The art of effective teamwork
 
-#### Event-Driven Architecture
+- Rule 1: Establish clear and shared goals.
+- Rule 2: Put the right person in the right place.
+- Rule 3: Maintain open communication and active listening.
+- Rule 4: Uphold personal accountability.
+- Digital Tools: Trello, ClickUp, Google Workspace, Slack, Discord.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### From IT Helpdesk to Senior Sysadmin
 
-#### Compute Evolution
+- IT Helpdesk Role: Building problem-solving mindsets, troubleshooting under pressure, and effective end-user communication.
+- System Admin Responsibilities: Server maintenance, security patching, and monitoring. The golden rule: "Never test in production."
+- Transitioning to Cloud/DevOps: Adopting the Cloud mindset (AWS, elastic scaling), Infrastructure as Code (Terraform), and DevOps culture (CI/CD, Docker, automation).
+- Core Advice: Go deep into 1-2 core skills, build real projects rather than just chasing certificates, and never be afraid to fail.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### Build GraphRAG applications using Amazon Bedrock and Amazon Neptune
 
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- What is RAG: Augmenting LLMs by retrieving relevant information from external knowledge bases.
+- What is GraphRAG: Utilizing Knowledge Graphs for multi-hop reasoning and explicitly defining relationships between entities.
+- Fully Managed Route: Using Amazon Bedrock Knowledge Bases and Amazon Neptune Analytics for chunking, entity extraction, and graph storage.
+- Custom Route: Building custom processing pipelines with LlamaIndex and Neptune for data preparation and Cypher queries.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the "Meeting 06/6" broadened my perspective on integrating cutting-edge Cloud technologies into real-world applications:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- **In-depth Technical Knowledge:** I learned how to combine Machine Learning with AWS WAF for automated security, how to deploy multiplayer games using WebSockets on AWS, and the fundamental differences between Docker and traditional VMs.
+- **AI Trends:** Discovered the power of GraphRAG in enhancing AI reasoning capabilities using Amazon Bedrock and Neptune.
+- **Career Orientation:** The journey from Helpdesk to Senior Sysadmin was highly inspiring, emphasizing the importance of building real-world projects over mere theoretical knowledge.
+- **Soft Skills:** The insights on effective teamwork provided essential rules for collaborating in complex tech projects.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
