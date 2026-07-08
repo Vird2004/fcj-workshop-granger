@@ -1,13 +1,14 @@
 ---
 title: "Worklog Tuần 12"
 date: 2024-01-01
-weight: 2
+weight: 12
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
 {{% notice warning %}}
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
+
 
 ### Mục tiêu tuần 12:
 
@@ -15,14 +16,14 @@ pre: " <b> 1.12 </b> "
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Rà soát lại toàn bộ tài liệu và báo cáo. | 04/07/2024 | 04/07/2024 | |
+| 3 | - Nộp các phiếu báo cáo, đánh giá lên trang công ty để đợi xét duyệt. | 05/07/2024 | 05/07/2024 | |
+| 4 | - Bắt đầu hoàn thiện nội dung Workshop cá nhân. | 08/07/2024 | 08/07/2024 | |
+| 5 | - Triển khai viết tài liệu Markdown cho website Workshop. | 09/07/2024 | 09/07/2024 | |
+| 6 | - Tinh chỉnh giao diện và kiểm tra lại toàn bộ quy trình Workshop. | 10/07/2024 | 11/07/2024 | |
+| 7 | - Hoàn tất nộp đầy đủ các phiếu, báo cáo và nộp link Workshop cá nhân lên hệ thống của công ty. | 12/07/2024 | 12/07/2024 | |
 
 ### Kết quả đạt được tuần 12:
 
@@ -54,5 +55,3 @@ pre: " <b> 1.12 </b> "
 
 * Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
 * ...
-
-

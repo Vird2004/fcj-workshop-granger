@@ -1,7 +1,7 @@
 ---
 title: "Week 12 Worklog"
 date: 2024-01-01
-weight: 2
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
@@ -16,14 +16,14 @@ pre: " <b> 1.12. </b> "
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Reviewing all documents and reports. | 04/07/2024 | 04/07/2024 | |
+| 3 | - Submitting report and evaluation forms to the company portal for review. | 05/07/2024 | 05/07/2024 | |
+| 4 | - Starting to finalize the content of the personal Workshop. | 08/07/2024 | 08/07/2024 | |
+| 5 | - Deploying Markdown document writing for the Workshop website. | 09/07/2024 | 09/07/2024 | |
+| 6 | - Fine-tuning the interface and reviewing the entire Workshop process. | 10/07/2024 | 11/07/2024 | |
+| 7 | - Completing the submission of all forms, reports, and submitting the personal Workshop link to the company's system. | 12/07/2024 | 12/07/2024 | |
 
 ### Week 12 Achievements:
 

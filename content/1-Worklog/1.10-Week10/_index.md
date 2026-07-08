@@ -1,7 +1,7 @@
 ---
 title: "Week 10 Worklog"
 date: 2024-01-01
-weight: 2
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
@@ -16,14 +16,13 @@ pre: " <b> 1.10. </b> "
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Starting to finalize the Numerology project (LunaGenZ). | 20/06/2024 | 20/06/2024 | |
+| 3 | - Building the Backend, coding calculation logic in the Localhost environment. | 21/06/2024 | 21/06/2024 | |
+| 4 | - Programming the automatic internal PDF report generation feature. | 24/06/2024 | 24/06/2024 | |
+| 5 | - Comprehensive system testing on Localhost to ensure operational flow. | 25/06/2024 | 25/06/2024 | |
+| 6 | - Deploying the Backend and Frontend to the AWS Serverless system. | 26/06/2024 | 26/06/2024 | |
 
 ### Week 10 Achievements:
 

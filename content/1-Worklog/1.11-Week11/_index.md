@@ -1,7 +1,7 @@
 ---
 title: "Week 11 Worklog"
 date: 2024-01-01
-weight: 2
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
@@ -16,14 +16,13 @@ pre: " <b> 1.11. </b> "
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Fixing bugs and testing the entire LunaGenZ system on AWS. | 27/06/2024 | 27/06/2024 | |
+| 3 | - Writing the Introduction and Architecture sections of the Graduation Internship Report. | 28/06/2024 | 28/06/2024 | |
+| 4 | - Finalizing the content of the Graduation Internship Report. | 01/07/2024 | 01/07/2024 | |
+| 5 | - Finalizing the Internship Progress Tracking Form. | 02/07/2024 | 02/07/2024 | |
+| 6 | - Finalizing the Internship Evaluation Form as required by the school. | 03/07/2024 | 03/07/2024 | |
 
 ### Week 11 Achievements:
 
